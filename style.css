@@ -1,0 +1,20 @@
+body{
+    background-color: aqua!important;
+}
+h3{
+    background-color:rgb(145, 35, 255);
+    color: white!important;
+    width:500px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+#livew{
+    border: 4px black ridge;
+    height: 300px;
+    width: 300px;
+}
+#capvew{
+    border: 4px black ridge;
+    height: 300px;
+    width: 300px;
+}

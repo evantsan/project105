@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>FACE RECOGNITION WEB APP</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>    
+</head>
+    <body>
+        <center>
+            <h1>Face recognition web app</h1>
+            <h2>This model is trained to identify the following people:</h2>
+            <h3>DAD</h3>
+            <br>
+            <h3>MOM</h3>
+            <br>
+            <h3>BROTHER</h3>
+            <br>
+            <h3>EVAN/BROTHER</h3>
+            <br><br>
+            <p>WEBCAM VIEW -</p>
+            <div id="livew"></div>
+            <br><br>
+            <p>CAPTURED VIEW -</p>
+            <div id="capvew"></div>
+            <br><br>
+            <button class="btn btn-success" onclick="capt()">CAPTURE IMAGE</button>
+            <button class="btn btn-danger" onclick="ident()">IDENTIFY IMAGE</button>
+            <br>
+            <h4>Person Name: </h4><span id="nameds"></span><br>
+            <h4>Accuracy: </h4><span id="accu"></span>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
